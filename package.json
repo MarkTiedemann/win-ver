@@ -1,0 +1,32 @@
+{
+  "name": "win-ver",
+  "version": "0.1.0",
+  "description": "Get the Windows version as returned by ver.",
+  "main": "index.js",
+  "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
+  "keywords": [
+    "win",
+    "windows",
+    "win32",
+    "ver",
+    "version",
+    "semver"
+  ],
+  "license": "WTFPL",
+  "scripts": {
+    "lint": "standard --fix",
+    "pretest": "npm run lint",
+    "test": "ava test.js --verbose"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "semver": "^5.3.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {},
+  "repository": "git+https://github.com/MarkTiedemann/win-ver.git",
+  "bugs": {
+    "url": "https://github.com/MarkTiedemann/win-ver/issues"
+  },
+  "homepage": "https://github.com/MarkTiedemann/win-ver"
+}
